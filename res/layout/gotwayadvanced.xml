@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:layout_gravity="center" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="      Дополнительно       " />
+    <LinearLayout android:orientation="vertical" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:layout_gravity="center" android:id="@id/imbtadvanced" android:background="@drawable/btbeen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bteen" />
+    </LinearLayout>
+    <TextView android:textSize="16.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/tvadvancedshow" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Drift3r стёр этот текст..." />
+</LinearLayout>

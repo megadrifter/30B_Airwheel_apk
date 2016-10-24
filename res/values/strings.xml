@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">30B для Airwheel X8</string>
+    <string name="send">send</string>
+    <string name="not_connected">Нет соединения с колесом</string>
+    <string name="bt_not_enabled_leaving">bluetooth не включен</string>
+    <string name="title_connecting">подключаем...</string>
+    <string name="title_connected_to">подключен к %1$s</string>
+    <string name="title_not_connected">не подключен</string>
+    <string name="scanning">ищем приборы...</string>
+    <string name="select_device">К чему подключаемся?</string>
+    <string name="none_paired">Ничего не получилось</string>
+    <string name="none_found">Устройства не найдены</string>
+    <string name="title_paired_devices">Сопряженные устройства</string>
+    <string name="title_other_devices">Другие устройства</string>
+    <string name="button_scan">Искать устройства</string>
+    <string name="secure_connect">Подключить защищенно</string>
+    <string name="insecure_connect">Подключить незащищенно</string>
+    <string name="showtem">проверять температуру</string>
+    <string name="advance">больше</string>
+    <string name="advancedTitle">Дополнительные функции</string>
+    <string name="main_title">Переработано Drift3r-ом</string>
+    <string name="other_fuction">другие функции</string>
+    <string name="jiaozhun">Настройка горизонта педалей</string>
+    <string name="sethard">Валим!</string>
+    <string name="setsoft">Тошним...</string>
+    <string name="beenfive">Пищать 5 секунд</string>
+    <string name="jiaozhunhelp">Помощь калибровки горизонта</string>
+    <string name="setsofthard">Помощь по режимам</string>
+    <string name="linkbluetooth">помощь по соединению</string>
+    <string name="showcurrent">Показать ток вместо скорости</string>
+    <string name="setmiddle">(третьего не дано)</string>
+    <string name="about">о приложении</string>
+    <string name="vibration_warn">Вибрация</string>
+</resources>

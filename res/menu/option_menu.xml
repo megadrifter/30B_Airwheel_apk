@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/secure_connect_scan" android:title="@string/secure_connect" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/insecure_connect_scan" android:title="@string/insecure_connect" android:showAsAction="ifRoom|withText" />
+    <item android:id="@id/vibration_warn" android:title="@string/vibration_warn">
+        <menu>
+            <group android:enabled="true" android:id="@id/vibration_warn_group" android:visible="true" android:checkableBehavior="single">
+                <item android:id="@id/speed_13_vibration" android:title="10 км/ч" />
+                <item android:id="@id/speed_16_vibration" android:title="12 км/ч" />
+                <item android:id="@id/speed_19_vibration" android:title="14 км/ч" />
+                <item android:id="@id/speed_22_vibration" android:title="16 км/ч" />
+                <item android:id="@id/speed_25_vibration" android:title="19 км/ч" />
+                <item android:id="@id/speed_28_vibration" android:title="21 км/ч" />
+                <item android:id="@id/close_vibration" android:title="Отключить" />
+            </group>
+        </menu>
+    </item>
+    <item android:id="@id/advance" android:title="@string/advance" />
+    <item android:id="@id/beenfive" android:title="@string/beenfive" />
+    <item android:id="@id/jiaozhun" android:title="@string/jiaozhun" />
+    <item android:id="@id/sethard" android:title="@string/sethard" />
+    <item android:id="@id/setmiddle" android:title="@string/setmiddle" />
+    <item android:id="@id/setsoft" android:title="@string/setsoft" />
+    <item android:id="@id/showcurrent" android:title="@string/showcurrent" />
+    <item android:id="@id/showtem" android:title="@string/showtem">
+        <menu>
+            <group android:enabled="true" android:id="@id/auto_flash_tem" android:visible="true" android:checkableBehavior="single">
+                <item android:id="@id/continuous_show_tem" android:title="непрерывно" />
+                <item android:id="@id/flash_tem_15_sec" android:title="15 с" />
+                <item android:id="@id/flash_tem_30_sec" android:title="30 с" />
+                <item android:id="@id/flash_tem_60_sec" android:title="60 с" />
+                <item android:id="@id/flash_tem_120_sec" android:title="120 с" />
+            </group>
+        </menu>
+    </item>
+    <item android:id="@id/set_speed_alart" android:title="Звуковые предупреждения">
+        <menu>
+            <item android:id="@id/close_speed_alart1" android:title="Отключить первое" />
+            <item android:id="@id/close_speed_alart_all" android:title="Отключить второе" />
+            <item android:id="@id/open_speed_alart" android:title="Заткнись вообще!" />
+        </menu>
+    </item>
+</menu>
